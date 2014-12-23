@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlassian-plugin key="org.hasadna.jira_rtl" name="jira_rtl" plugins-version="2">
+  <plugin-info>
+    <description>This is a right-to-left plugin for Atlassian JIRA.</description>
+    <version>1.0.4</version>
+    <vendor name="The Public Knoweldge Workshop" url="http://www.hasadna.org.il/" />
+    <param name="plugin-icon">images/pluginIcon.png</param>
+    <param name="plugin-logo">images/pluginLogo.png</param>
+  </plugin-info>
+  <resource type="i18n" name="i18n" location="jira_rtl" />
+  <web-resource name="Resources" key="css_resources">
+    <dependency>com.atlassian.auiplugin:ajs</dependency>
+    <resource name="rtl.css" type="download" location="/css/rtl.css" />
+    <context>atl.general</context>
+    <context>atl.admin</context>
+    <context>atl.userprofile</context>
+    <context>atl.popup</context>
+  </web-resource>
+</atlassian-plugin>

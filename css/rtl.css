@@ -1,0 +1,53 @@
+body {direction: rtl !important;}
+.aui-header .aui-header-logo, .aui-header .aui-nav {float: right;}
+.aui-header-secondary .aui-nav {left: 0; right: auto;}
+.aui-header .aui-nav > li { float:right;}
+.aui-icon {text-align:right;}
+.aui-page-header-actions{text-align:left;}
+.aui-page-header-main {text-align: right;}
+.gadget .gadget-menu .aui-icon, .gadget .gadget-menu .aui-dd-trigger { text-align:right;}
+.empty-results {text-align: right !important; }
+.activity-stream-container .activity-stream-title-container
+ {float: right !important; padding-right:0 !important; padding-left:1.8em !important;}
+.activity-stream-views {float:left !important;}
+#admin-getting-started-img, #admin-do-more-img, #admin-docs-img, #admin-license-img, #admin-warnings-img {float:right !important;}
+.admin-item-content {margin-right: 72px; margin-left: 0 !important;}
+.activity-item-description ul.activity-list li {padding-right:1.7em; padding-left:0 !important;}
+.activity-item-description ul.activity-list li {background-position: top 0.7em right 0.6em !important;}
+.aui-navgroup-horizontal .aui-nav, .aui-navgroup-horizontal .aui-nav-heading, .aui-navgroup-horizontal .aui-navgroup-primary, 
+.aui-nav-breadcrumbs > li, .aui-nav-pagination > li, .aui-nav-horizontal > li, .aui-navgroup-horizontal .aui-nav > li 
+{float:right;}
+table.aui > thead > tr > th, table.aui > tbody > tr > th, table.aui > thead > tr > td, table.aui > tbody > tr > td, table.aui > tfoot > tr > td, 
+#issuetable > thead > tr > th, .issue-table > thead > tr > th, #issuetable > tbody > tr > th, .issue-table > tbody > tr > th, #issuetable > thead > tr > td, .issue-table > thead > tr > td, #issuetable > tbody > tr > td, .issue-table > tbody > tr > td, #issuetable > tfoot > tr > td, .issue-table > tfoot > tr > td 
+{text-align: right;}
+.aui-group.aui-group-split > .aui-item:first-child {text-align: right;}
+.aui-group.aui-group-split > .aui-item {text-align: left;}
+.aui-toolbar .toolbar-split {float:right !important;}
+.aui-toolbar .toolbar-split.toolbar-split-right {float:left !important;}
+.aui-toolbar .toolbar-group {float:right;}
+.property-list.two-cols > .item {clear: right; float:right; }
+.property-list.two-cols > .item-right {clear: left; float:left; }
+.issue-body-content .property-list .item .name, .issue-body-content .item-details dl > dt {text-align: right;}
+.property-list .wrap { padding: 0 150px 0 10px; }
+.property-list .wrap .name {float:right; margin: 0 -150px 0 0;}
+.skinny .split-view #viewissuesidebar ul.item-details dl dt {text-align: right;}
+.tabwrap > .tabs.horizontal > li {float:right;}
+.ops li {float: right;}
+form.aui legend, form.aui .field-group > label {float:right; margin-right:-150px;}
+form.aui .field-group, form.aui .group, form.aui .date-select {padding: 4px 145px 4px 0;}
+form.aui .aui-field-wikiedit > .field-tools, form.aui .aui-field-wikiedit > .security-level {float:right;}
+form.aui .field-tools + .security-level, .field-tools + .security-level 
+{border-left:none; border-right: 1px solid #eee; margin: 5px 5px 0 0; padding: 0 5px 0 0;}
+.drop-menu {margin: 0 8px 0 0;}
+.issue-header-content .aui-nav-breadcrumbs > li + li:before {right: 0px;}
+.issue-header .page-navigation li.showing {margin: 0 -48px 0 0; }
+.activity-item { padding: 0 65px 0.8em 5px !important; }
+.activity-item .user-icon { float: right; margin-right: -60px !important; }
+.action-details { text-align:right; }
+/* radios & checkboxes */
+form.aui div.radio input.radio, form.aui div.checkbox input.checkbox { left: auto !important; }
+form.aui .group .radio + label, form.aui .group .checkbox + label { padding-right: 2em; }
+/* cascading select */
+.editable-field.type-cascadingselect form.aui .inline-edit-fields select + select { float: left; }
+.editable-field form.aui .field-group .aui-ss, .editable-field form.aui .field-group .jira-multi-select, .editable-field form.aui .field-group .group, .editable-field form.aui .field-group input[type="text"], .editable-field form.aui .field-group select, .editable-field form.aui .field-group textarea, .editable-field form.aui .field-group .text { text-align: right; }
+/* dashboard */
