@@ -2,7 +2,7 @@
 <atlassian-plugin key="org.hasadna.jira_rtl" name="jira_rtl" plugins-version="2">
   <plugin-info>
     <description>This is a right-to-left plugin for Atlassian JIRA.</description>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <vendor name="The Public Knoweldge Workshop" url="http://www.hasadna.org.il/" />
     <param name="plugin-icon">images/pluginIcon.png</param>
     <param name="plugin-logo">images/pluginLogo.png</param>

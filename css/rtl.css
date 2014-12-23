@@ -48,6 +48,7 @@ form.aui .field-tools + .security-level, .field-tools + .security-level
 form.aui div.radio input.radio, form.aui div.checkbox input.checkbox { left: auto !important; }
 form.aui .group .radio + label, form.aui .group .checkbox + label { padding-right: 2em; }
 /* cascading select */
-.editable-field.type-cascadingselect form.aui .inline-edit-fields select + select { float: left; }
-.editable-field form.aui .field-group .aui-ss, .editable-field form.aui .field-group .jira-multi-select, .editable-field form.aui .field-group .group, .editable-field form.aui .field-group input[type="text"], .editable-field form.aui .field-group select, .editable-field form.aui .field-group textarea, .editable-field form.aui .field-group .text { text-align: right; }
-/* dashboard */
+.editable-field.type-cascadingselect form.aui .inline-edit-fields select + select
+ { float: left !important; }
+.editable-field form.aui .field-group .aui-ss, .editable-field form.aui .field-group .jira-multi-select, .editable-field form.aui .field-group .group, .editable-field form.aui .field-group input[type="text"], .editable-field form.aui .field-group select, .editable-field form.aui .field-group textarea, .editable-field form.aui .field-group .text 
+ { text-align: right !important; }
