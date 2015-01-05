@@ -25,11 +25,11 @@ table.aui > thead > tr > th, table.aui > tbody > tr > th, table.aui > thead > tr
 .aui-toolbar .toolbar-split {float:right !important;}
 .aui-toolbar .toolbar-split.toolbar-split-right {float:left !important;}
 .aui-toolbar .toolbar-group {float:right;}
-.property-list.two-cols > .item {clear: right; float:right; }
-.property-list.two-cols > .item-right {clear: left; float:left; }
-.issue-body-content .property-list .item .name, .issue-body-content .item-details dl > dt {text-align: right;}
-.property-list .wrap { padding: 0 150px 0 10px; }
-.property-list .wrap .name {float:right; margin: 0 -150px 0 0;}
+.property-list.two-cols > .item {clear: right !important; float:right !important;}
+.property-list.two-cols > .item-right {clear: left !important; float:left !important; }
+.issue-body-content .property-list .item .name, .issue-body-content .item-details dl > dt {text-align: right !important;}
+.property-list .wrap { padding: 0 150px 0 10px !important; }
+.property-list .wrap .name {float:right !important; margin: 0 -150px 0 0 !important;}
 .skinny .split-view #viewissuesidebar ul.item-details dl dt {text-align: right;}
 .tabwrap > .tabs.horizontal > li {float:right;}
 .ops li {float: right;}
